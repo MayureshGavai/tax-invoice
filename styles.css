@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    margin: auto;
+    background-color: aqua;
+    width: 50%;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.col-span{
+    font-size: 54px;
+}
+
+.logo{
+    width: 100px;
+    height: 75px;
+    border: 1px solid black;
+}
+
+.company-details{
+    width: 300px;
+    padding-top: 20px;
+    /* padding-left: 20px; */
+}
+
+input{
+    border: transparent;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+input:focus{
+    outline: none !important;
+    border: 2px solid #5b9aff;
+    border-radius: 2.5px;
+    background-color: transparent;
+}
+
+.input-detail{
+    width: 300px;
+}
+
+.billing-details{
+    margin-top: 15px;
+    /* padding: 20px; */
+    display: flex;
+}
+
+.billing-details h4{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.billing-details .col{
+    width: 50%;
+}
+
+.billing-details ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.billing-details ul li{
+    margin: 0;
+}
+
+.billing-details .col input{
+    width: 200px !important;
+    /* margin-left: 10px ; */
+    /* margin-right: 10px; */
+}
+
+.supply-place{
+    margin-top: 20px;
+    margin-left: 2px;
+    background-color: transparent;
+    outline: transparent;
+    border: transparent;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.invoice-table{
+    margin-top:30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invoice-table th{
+    background-color: #050100;
+    color: white;
+    padding: 15px;
+    text-align: end;
+}
+
+.invoice-table td{
+    height: 75px;
+}
+
+.invoice-table tbody{
+    margin-top: 20px;
+}
+
+.invoice-row{
+    border-bottom: 1px solid #050100 !important;
+}
+
+.product-desc{
+    width: 95%;
+    height: 40px;
+    background-color: transparent;
+    outline: transparent;
+    border: transparent;
+    overflow: hidden;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-desc:focus{
+    outline: none !important;
+    border: 2px solid #5b9aff;
+    border-radius: 2.5px;
+    background-color: transparent;
+}
+
+.table-number{
+    width: 75%;
+    text-align: end;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.readonly:focus{
+    outline:none !important;
+    border:none;
+}
+
+.remove-button{
+    all: unset;
+    cursor: pointer;
+}
+
+.close-svg{
+    /* margin-left: 20px; */
+    width: 20px;
+}
+
+.close-svg path{
+    fill: red;
+}
+
+.add-item{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #5b9aff;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.bill-table{
+    margin: 0;
+    padding: 10px 25px;
+}
+
+.bill-table div{
+    margin: 10px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h5{
+    margin: 0;
+}
+
+.footer input{
+    width: 100%;
+}
+
+.footer input::placeholder{
+    color: #050100;
+}
+
+.footer textarea{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    outline: transparent;
+    border: transparent;
+    overflow: hidden;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer textarea:focus{
+    outline: none !important;
+    border: 2px solid #5b9aff;
+    border-radius: 2.5px;
+    background-color: transparent;
+}
